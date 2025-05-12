@@ -12,8 +12,8 @@ This project is a RESTful API built using Spring Boot that provides endpoints fo
 ## Getting Started
 ### Clone the repository
 ```shell
-git clone "https://github.com/playerblair/spring-boot-manga-library"
-cd spring-boot-manga-library
+git clone "https://github.com/playerblair/spring-boot-workout-tracker"
+cd spring-boot-workout-tracker
 ```
 ### Build the application
 ```shell
@@ -85,7 +85,7 @@ Response:
 ```
 ### GET /api/workouts/report
 Response:
-```json
+```text
 Workout Report: johndoe
 
 Total Workouts: 2
