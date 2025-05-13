@@ -123,9 +123,9 @@ public class WorkoutService {
 
             report.append("Exercises: ").append("\n");
             for (ExercisePlan exercise: workout.getExercises()) {
-                report.append("\t").append("Name: ").append(exercise.getExercise().getName()).append(",");
-                report.append("Reps: ").append(exercise.getReps()).append(",");
-                report.append("Sets: ").append(exercise.getSets()).append(",");
+                report.append("\t").append("Name: ").append(exercise.getExercise().getName()).append(", ");
+                report.append("Reps: ").append(exercise.getReps()).append(", ");
+                report.append("Sets: ").append(exercise.getSets()).append(", ");
                 report.append("Weights: ").append(exercise.getWeights());
             }
         }
