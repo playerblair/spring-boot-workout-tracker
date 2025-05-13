@@ -30,6 +30,7 @@ The application will be available at: http://localhost:8080
 |--------|----------------------|---------------------------------------------------------|
 | POST   | /login               | User login.                                             |
 | POST   | /signup              | User registration.                                      |
+| GET    | /api/exercises       | Get all exercises.                                      |
 | GET    | /api/workouts        | Get user workouts.                                      |
 | GET    | /api/workouts/report | Generates a report on workouts and progress.            |
 | POST   | /api/workouts        | Allows users to create a workout composed of exercises. |
