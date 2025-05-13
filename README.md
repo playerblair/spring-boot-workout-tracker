@@ -185,3 +185,6 @@ mvn tests
 - Spring Boot Data JPA - Data persistence
 - Spring Boot OAuth2 Resource Server - JWT Authentication and Spring Security
 - Maven - Dependency Management
+
+## Source
+This project idea came from roadmap.sh, https://roadmap.sh/projects/fitness-workout-tracker.
